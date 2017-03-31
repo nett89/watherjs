@@ -8,6 +8,7 @@ A local weather checker made as an assignment for [FreeCodeCamp](https://www.fre
 * [Bootswatch](https://bootswatch.com/)
 * [FontAwesome](http://fontawesome.io/)
 * [FreeGeoIP](http://freegeoip.net/)
+* [jQuery](https://jquery.com/)
 * [OpenWeatherMap API](https://openweathermap.org/api)
 
 
