@@ -9,19 +9,7 @@ $(document).ready(function (){
         $.ajaxSetup({ cache: false });
  
         $.getJSON("/data.json", function(data){ 
-            var html = [];
- 
-            /* loop through array */
-            $.each(data, function(index, d){            
-                html.push("Wather : ", d.Wather, ","<br>");
-            });
- 
- 
-            $("#div381").html(html.join('')).css("background-color", "orange");
-        }).error(function(jqXHR, textStatus, errorThrown){ /* assign handler */
-            /* alert(jqXHR.responseText) */
-            alert("error occurred!");
-        });
+
     });
 });
 </script>
